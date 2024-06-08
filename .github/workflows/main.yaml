@@ -4,7 +4,7 @@ name: Deploy website to EC2 using AWS CodeDeploy
 on:
   push:
     branches:
-      - devops
+      - main
 
 jobs:
   deploy:
