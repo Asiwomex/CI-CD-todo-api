@@ -61,7 +61,7 @@ codedeploy-agent --version
 
 3.	Launch the Instance: Review and launch the instance. Ensure you download the key pair (.pem file) for SSH access.
 
-### Step 2: Create IAM Role for CodeDeploy
+### Step 2a: Create IAM Role for EC2
 1.	Open the IAM Console:
 •	Navigate to the AWS Management Console.
 •	Go to the IAM (Identity and Access Management) service.
@@ -81,6 +81,16 @@ For our own we will not be needing this since we not using s3
 •	Enter a role name (e.g., EC2CodeDeployRole).
 •	Add a description if desired.
 •	Click "Create role."
+
+### Step 2b: Create IAM role for Code Deploy
+The Policy should contain the following
+Search for and select the following policies:
+- AWSCodeDeployFullAccess
+- AWSCodeDeployRole
+- AmazonEC2FullAccess
+- AmazonEC2RoleForCodeDeploy
+- AmazonS3ReadOnlyAccess (if your CodeDeploy application accesses S3 for deployment packages)
+Enter role name, Create role
 
 ## Step 3: Attach IAM Role to EC2 Instance
 1.	Open the EC2 Console:
