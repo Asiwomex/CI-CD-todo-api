@@ -1,6 +1,6 @@
 # CI_CD-todoapi_Codedeploy
 
-## Automate Your EC2 Deployments with CodeDeploy and GitHub Actions
+## Automate Your Deployment Onto An EC2 Using Github Actions with CodeDeploy (and docker)
 CodeDeploy - CodeDeploy is an Amazon deployment service that automates application deployments to Amazon EC2 instances, on-premises instances, serverless Lambda functions, or Amazon ECS services.
 
 GitHub Actions - GitHub Actions is a continuous integration tool that operates based on your GitHub code lifecycle, such as code push, commit, PR merge, branch creation, and tag creation. You can utilize this hook to trigger other actions like Jenkins jobs, AWS services, and more.
