@@ -260,6 +260,8 @@ By following these steps, you will have a completed setup for deploying your app
 
 ![Picture9](https://github.com/Asiwomex/CI_CD-todoapi_Codedeploy/assets/118656806/d4096b0f-5399-485a-a6e3-ac372a5d25e8)
 
+### Remember to allow port 8000 in order to view the app
+
 ***Here is a diagram for the workflow.***
  
 ![Picture1](https://github.com/Asiwomex/CI_CD-todoapi_Codedeploy/assets/118656806/1dca22ce-91a5-40bd-bbad-72050454691a)
